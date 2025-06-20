@@ -1,3 +1,5 @@
+[![GitHub Repo](https://img.shields.io/badge/GitHub-mrbuddhu%2FMedicoBuddy-blue?logo=github)](https://github.com/mrbuddhu/MedicoBuddy)
+
 # MedicoBuddy Landing Page
 
 A modern, premium landing page for MedicoBuddy - Your Personal AI Health Companion. Built with React, Tailwind CSS, and Framer Motion.
@@ -11,6 +13,7 @@ A modern, premium landing page for MedicoBuddy - Your Personal AI Health Compani
 - **Smooth Animations**: Framer Motion powered animations and interactions
 - **SEO Optimized**: Proper meta tags and semantic HTML structure
 - **Performance**: Optimized for fast loading and smooth user experience
+- **Dark Mode**: Toggle between light and dark themes
 
 ## 🎨 Design System
 
@@ -21,12 +24,12 @@ A modern, premium landing page for MedicoBuddy - Your Personal AI Health Compani
 
 ## 📱 Sections
 
-1. **Navbar**: Logo, navigation links, and CTA button
-2. **Hero**: Main headline, subtext, and AI chat interface mockup
+1. **Navbar**: Logo, navigation links, dark mode toggle, and CTA button
+2. **Hero**: World-class headline, animated visuals, and AI chat interface mockup
 3. **Features**: 4 feature blocks showcasing key capabilities
 4. **Testimonials**: User and doctor testimonials from around the world
 5. **Waitlist CTA**: Compelling call-to-action with progress bar
-6. **Footer**: Brand info, social links, and "Built by Sanganak" credit
+6. **Footer**: Brand info, social links, and "Built by Sanganak — #1 Premium II Boutique"
 
 ## 🛠️ Tech Stack
 
@@ -34,32 +37,30 @@ A modern, premium landing page for MedicoBuddy - Your Personal AI Health Compani
 - **Tailwind CSS**: Utility-first CSS framework
 - **Framer Motion**: Animation library
 - **Lucide React**: Icon library
-- **Vite**: Fast build tool (can be configured)
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Node.js 16+ 
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
-```bash
-git clone <repository-url>
-cd MedicoBuddy
-```
+   ```bash
+   git clone https://github.com/mrbuddhu/MedicoBuddy.git
+   cd MedicoBuddy
+   ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
 3. Start the development server:
-```bash
-npm start
-```
+   ```bash
+   npm start
+   ```
 
 4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -87,70 +88,12 @@ src/
 └── index.css             # Global styles and Tailwind imports
 ```
 
-## 🎯 Customization
-
-### Colors
-Edit `tailwind.config.js` to modify the color scheme:
-```javascript
-colors: {
-  primary: { /* blue shades */ },
-  teal: { /* teal shades */ },
-  gray: { /* gray shades */ }
-}
-```
-
-### Content
-Update the content in each component file to match your brand messaging.
-
-### Waitlist Integration
-Replace the placeholder form submission in `App.js` with your actual waitlist service:
-```javascript
-const handleWaitlistSubmit = (e) => {
-  e.preventDefault();
-  // Integrate with your waitlist service (ConvertKit, Mailchimp, etc.)
-  // Example: sendEmailToWaitlist(email);
-};
-```
-
-## 🌟 Key Features
-
-### AI-Powered Healthcare
-- Symptom checking with AI analysis
-- Personalized health recommendations
-- Multi-language support
-- 24/7 availability
-
-### Blockchain Security
-- Encrypted health records
-- Decentralized storage
-- Global compliance (HIPAA, GDPR)
-- Full user control
-
-### Global Doctor Network
-- Verified healthcare professionals worldwide
-- Instant booking system
-- Video consultations
-- Multi-language support
-
-### Smart Monitoring
-- Real-time health tracking
-- Intelligent reminders
-- Progress analytics
-- Hospital integration
-
 ## 🌍 Global Reach
 
-### Target Markets
 - **Patients**: Individual users seeking health insights and doctor connections
 - **Doctors**: Healthcare professionals looking to expand their practice globally
 - **Hospitals**: Healthcare institutions wanting to improve patient care and efficiency
 - **Regions**: India, USA, Europe, Middle East, Asia-Pacific, and more
-
-### Key Benefits
-- **Multi-language Support**: Available in 25+ languages
-- **Global Compliance**: Meets healthcare regulations worldwide
-- **Local Partnerships**: Collaborations with hospitals and clinics globally
-- **Cultural Adaptation**: Tailored for different healthcare systems
 
 ## 📈 Performance
 
@@ -172,11 +115,33 @@ const handleWaitlistSubmit = (e) => {
 ### Other Platforms
 The build output is compatible with any static hosting service.
 
+## 📤 Pushing to GitHub
+
+If you are setting up for the first time, use these commands:
+
+```bash
+git remote add origin https://github.com/mrbuddhu/MedicoBuddy.git
+git branch --unset-upstream
+git branch -u origin/main
+git add .
+git commit -m "Initial commit: MedicoBuddy landing page"
+git push -u origin main
+```
+
+If the remote already exists, use:
+```bash
+git remote set-url origin https://github.com/mrbuddhu/MedicoBuddy.git
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/mrbuddhu/MedicoBuddy).
+
 ## 📞 Support
 
 For questions or support, contact:
-- Email: hello@medicobuddy.ai
-- Website: [sanganak.org](https://sanganak.org)
+- Email: hello@medicobuddy.xyz
+- Website: [https://medicobuddy.xyz](https://medicobuddy.xyz)
 
 ## 📄 License
 
@@ -184,4 +149,4 @@ This project is proprietary software. All rights reserved.
 
 ---
 
-**Built with ❤️ by [Sanganak](https://sanganak.org) — Elite Tech & Design Studio** 
+**Built with ❤️ by [Sanganak](https://sanganak.org) — #1 Premium II Boutique** 
