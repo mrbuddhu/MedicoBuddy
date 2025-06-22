@@ -1,0 +1,26 @@
+{
+  "short_name": "MedicoBuddy",
+  "name": "MedicoBuddy - Your Personal AI Health Companion",
+  "description": "Smart symptom checks, secure records, instant care — powered by AI & blockchain",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0ea5e9",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en"
+} 
